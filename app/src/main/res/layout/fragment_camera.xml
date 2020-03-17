@@ -32,6 +32,31 @@
                 android:id="@+id/share"
                 android:layout_alignParentRight="true"
                 ></Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="weather"
+                android:id="@+id/coordinates"
+                ></Button>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/weatherData"
+                android:layout_below="@id/coordinates"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="Home" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/currentplacename"
+                android:layout_below="@id/weatherData"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:text="place" />
         </RelativeLayout>
 
     </LinearLayout>

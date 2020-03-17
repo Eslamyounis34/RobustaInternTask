@@ -9,7 +9,6 @@ import android.view.MenuItem;
 
 import com.example.robustatask.R;
 import com.example.robustatask.fragments.CameraFragment;
-import com.example.robustatask.fragments.HomeFragment;
 import com.example.robustatask.fragments.PhotosFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -42,11 +41,7 @@ public class MainActivity extends AppCompatActivity {
                     FragmentManager fragmentManager = getSupportFragmentManager();
                     fragmentManager.beginTransaction().replace(R.id.containerlayout, cameraFragment).commit();
                 }
-                else if (id == R.id.homeicon) {
-                    HomeFragment homeFragment = new HomeFragment();
-                    FragmentManager fragmentManager = getSupportFragmentManager();
-                    fragmentManager.beginTransaction().replace(R.id.containerlayout, homeFragment).commit();
-                }
+
                 return true;
             }
         });

@@ -4,10 +4,6 @@
         android:title="Images"
         android:id="@+id/listicon"
         android:icon="@drawable/listicon"></item>
-    <item
-        android:title="Home"
-        android:id="@+id/homeicon"
-        android:icon="@drawable/homeicon"></item>
 
     <item
         android:title="Camera"
